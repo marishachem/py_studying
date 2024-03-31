@@ -3,7 +3,7 @@ import numpy as np
 from sklearn.linear_model import LinearRegression
 
 # Загружаем данные из файла CSV
-df_sales = pd.read_csv('Продажи прогноз.csv')
+df_sales = pd.read_csv('../Продажи прогноз.csv')
 # Создаем рабочий датафрейм с датами
 df = pd.DataFrame({
         'dt': pd.date_range('2022-01-01', '2022-12-31'),
